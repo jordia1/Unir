@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6fa; /* Morado claro */
+    color: black; /* Color del texto */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.proyecto {
+    margin: 20px auto;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+footer {
+    height: 50px; /* Ajusta esta altura según tus necesidades */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+#inicio {
+    padding-left: 2cm; /* Agrega un margen de 2 cm a la izquierda del contenedor inicio */
+}
+
+#contenedor-foto {
+    text-align: left; /* Alinea el contenido a la izquierda */
+    margin-left: 2cm; /* Margen izquierdo de 2 cm */
+}
+
+#foto-perfil {
+    display: block; /* Cambia la imagen a un elemento de bloque */
+    margin-bottom: 10px; /* Agrega un espacio entre la imagen y el nombre */
+}
+
+#inicio h2 {
+    font-size: 24px; /* Tamaño de fuente más grande */
+    color: black; /* Color negro */
+    font-weight: bold; /* Aplicar negrita */
+    margin-top: 10px; /* Agrega un espacio entre la imagen y el nombre */
+}
+
+#inicio h1 {
+    font-size: 40px; /* Tamaño de fuente más grande */
+    color: white; /* Color blanco */
+    font-weight: bold; /* Aplicar negrita */
+    margin-top: 10px; /* Agrega un espacio entre la imagen y el nombre */
+    text-align: center;
+}
+
+#tabla-container {
+    margin-top: 20px; /* Agrega un margen superior para separar la tabla del nombre */
+    margin-left: 2cm; /* Posiciona la tabla a dos centímetros de la margen izquierda */
+}
+
+table {
+    width: 80%; /* Ocupa el ancho completo del contenedor */
+    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+}
+
+td {
+    padding: 8px; /* Agrega espacio interno a las celdas */
+    border: 1px solid #ddd; /* Agrega bordes a las celdas */
+    vertical-align: top; /* Alinea el contenido al tope de la celda */
+    text-align: justify; /* Justifica el texto */
+}
+
+.categoria {
+    font-weight: bold; /* Texto en negrita */
+}
+
+#sobre-mi-container {
+    margin-left: 2cm; /* Margen izquierdo de 2 cm */
+    margin-right: 2cm; /* Margen derecho de 2 cm */
+}
+
+#sobre-mi-container .titulo {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 20px; /* Tamaño del título */
+}
+
+#sobre-mi-container .contenido {
+    margin-top: 10px; /* Margen superior */
+    text-align: justify; /* Justifica el texto */
+}
+
+#sobre-mi-container .contenido p {
+    line-height: 1.6; /* Altura de línea */
+}
+
+#sobre-mi-container .contenido .habilidades ul {
+    list-style-type: disc; /* Estilo de lista con viñetas */
+    padding-left: 20px; /* Indentación para las viñetas */
+}
+
+.proyecto-container {
+    margin-left: 2cm; /* Margen izquierdo de 2 cm */
+    margin-right: 2cm; /* Margen derecho de 2 cm */
+}
+
+.proyecto img {
+    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se ajuste correctamente */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+#experiencia-container {
+    margin-left: 2cm;
+    margin-right: 2cm;
+}
+
+.experiencia {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#contacto {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px; /* Ajusta este valor según la altura de tu footer */
+  }
+  
+  .info-contacto p {
+    margin: 10px 0;
+  }
+  
+  .info-contacto ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-contacto ul li {
+    margin-bottom: 5px;
+  }
+  
+  .info-contacto a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .info-contacto a:hover {
+    text-decoration: underline;
+  }
