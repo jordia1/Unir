@@ -173,3 +173,13 @@ td {
   .info-contacto a:hover {
     text-decoration: underline;
   }
+
+#menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del menú */
+    color: white; /* Color del texto del menú */
+    padding: 10px 0; /* Espaciado interno del menú */
+    z-index: 1000; /* Z-index para asegurar que esté por encima del contenido */
+}
