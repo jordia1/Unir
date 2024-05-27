@@ -1,15 +1,17 @@
+/* Estilos generales para el cuerpo del documento */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6e6fa; /* Morado claro */
+    background-color: #e6e6fa; /* Color de fondo morado claro */
     color: black; /* Color del texto */
 }
 
+/* Estilos para el menú de navegación */
 nav ul {
     list-style-type: none;
     padding: 0;
-    background-color: #333;
+    background-color: #333; /* Fondo del menú */
     text-align: center;
     margin: 0;
 }
@@ -21,83 +23,89 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: white; /* Color del texto del menú */
     padding: 10px;
 }
 
+/* Estilos generales para las secciones */
 section {
     padding: 50px 0;
     text-align: center;
 }
 
+/* Estilos para los proyectos */
 .proyecto {
     margin: 20px auto;
     max-width: 600px;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /* Borde de los proyectos */
     padding: 20px;
 }
 
+/* Estilos para el pie de página */
 footer {
-    height: 50px; /* Ajusta esta altura según tus necesidades */
-    background-color: #333;
-    color: #fff;
+    height: 50px; /* Altura del pie de página */
+    background-color: #333; /* Fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
     text-align: center;
-    line-height: 50px;
+    line-height: 50px; /* Centrado vertical del texto */
     position: fixed;
     bottom: 0;
     width: 100%;
-  }
+}
 
+/* Estilos específicos para la sección de inicio */
 #inicio {
-    padding-left: 2cm; /* Agrega un margen de 2 cm a la izquierda del contenedor inicio */
+    padding-left: 2cm; /* Margen izquierdo de 2 cm */
 }
 
 #contenedor-foto {
-    text-align: left; /* Alinea el contenido a la izquierda */
+    text-align: left; /* Alineación a la izquierda */
     margin-left: 2cm; /* Margen izquierdo de 2 cm */
 }
 
 #foto-perfil {
-    display: block; /* Cambia la imagen a un elemento de bloque */
-    margin-bottom: 10px; /* Agrega un espacio entre la imagen y el nombre */
+    display: block; /* Mostrar la imagen como un bloque */
+    margin-bottom: 10px; /* Espacio inferior */
 }
 
 #inicio h2 {
-    font-size: 24px; /* Tamaño de fuente más grande */
-    color: black; /* Color negro */
-    font-weight: bold; /* Aplicar negrita */
-    margin-top: 10px; /* Agrega un espacio entre la imagen y el nombre */
+    font-size: 24px; /* Tamaño de la fuente */
+    color: black; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Espacio superior */
 }
 
 #inicio h1 {
-    font-size: 40px; /* Tamaño de fuente más grande */
-    color: white; /* Color blanco */
-    font-weight: bold; /* Aplicar negrita */
-    margin-top: 10px; /* Agrega un espacio entre la imagen y el nombre */
-    text-align: center;
+    font-size: 40px; /* Tamaño de la fuente */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    margin-top: 10px; /* Espacio superior */
+    text-align: center; /* Alineación centrada */
 }
 
+/* Estilos para el contenedor de la tabla */
 #tabla-container {
-    margin-top: 20px; /* Agrega un margen superior para separar la tabla del nombre */
-    margin-left: 2cm; /* Posiciona la tabla a dos centímetros de la margen izquierda */
+    margin-top: 20px; /* Margen superior */
+    margin-left: 2cm; /* Margen izquierdo de 2 cm */
 }
 
 table {
-    width: 80%; /* Ocupa el ancho completo del contenedor */
-    border-collapse: collapse; /* Fusiona los bordes de la tabla */
+    width: 80%; /* Ancho de la tabla */
+    border-collapse: collapse; /* Fusionar bordes */
 }
 
 td {
-    padding: 8px; /* Agrega espacio interno a las celdas */
-    border: 1px solid #ddd; /* Agrega bordes a las celdas */
-    vertical-align: top; /* Alinea el contenido al tope de la celda */
-    text-align: justify; /* Justifica el texto */
+    padding: 8px; /* Espacio interno de las celdas */
+    border: 1px solid #ddd; /* Bordes de las celdas */
+    vertical-align: top; /* Alineación vertical al tope */
+    text-align: justify; /* Texto justificado */
 }
 
 .categoria {
     font-weight: bold; /* Texto en negrita */
 }
 
+/* Estilos para la sección sobre mí */
 #sobre-mi-container {
     margin-left: 2cm; /* Margen izquierdo de 2 cm */
     margin-right: 2cm; /* Margen derecho de 2 cm */
@@ -110,7 +118,7 @@ td {
 
 #sobre-mi-container .contenido {
     margin-top: 10px; /* Margen superior */
-    text-align: justify; /* Justifica el texto */
+    text-align: justify; /* Texto justificado */
 }
 
 #sobre-mi-container .contenido p {
@@ -118,78 +126,83 @@ td {
 }
 
 #sobre-mi-container .contenido .habilidades ul {
-    list-style-type: disc; /* Estilo de lista con viñetas */
+    list-style-type: disc; /* Lista con viñetas */
     padding-left: 20px; /* Indentación para las viñetas */
 }
 
+/* Estilos para el contenedor de proyectos */
 .proyecto-container {
     margin-left: 2cm; /* Margen izquierdo de 2 cm */
     margin-right: 2cm; /* Margen derecho de 2 cm */
 }
 
 .proyecto img {
-    max-width: 100%; /* Establece el ancho máximo al 100% del contenedor */
+    max-width: 100%; /* Ancho máximo del 100% del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
     display: block; /* Asegura que la imagen se ajuste correctamente */
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
+/* Estilos para el contenedor de experiencia */
 #experiencia-container {
-    margin-left: 2cm;
-    margin-right: 2cm;
+    margin-left: 2cm; /* Margen izquierdo de 2 cm */
+    margin-right: 2cm; /* Margen derecho de 2 cm */
 }
 
 .experiencia {
-    text-align: justify;
-    margin-bottom: 20px;
+    text-align: justify; /* Texto justificado */
+    margin-bottom: 20px; /* Margen inferior */
 }
 
+/* Estilos para la sección de contacto */
 #contacto {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 50px; /* Ajusta este valor según la altura de tu footer */
-  }
-  
-  .info-contacto p {
-    margin: 10px 0;
-  }
-  
-  .info-contacto ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .info-contacto ul li {
-    margin-bottom: 5px;
-  }
-  
-  .info-contacto a {
-    color: #007bff;
-    text-decoration: none;
-  }
-  
-  .info-contacto a:hover {
-    text-decoration: underline;
-  }
+    background-color: #f9f9f9; /* Fondo de la sección de contacto */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-top: 20px; /* Margen superior */
+    margin-bottom: 50px; /* Margen inferior, ajustable según la altura del pie de página */
+}
 
+.info-contacto p {
+    margin: 10px 0; /* Márgenes verticales */
+}
+
+.info-contacto ul {
+    list-style: none; /* Sin estilo de lista */
+    padding: 0; /* Sin padding */
+}
+
+.info-contacto ul li {
+    margin-bottom: 5px; /* Margen inferior */
+}
+
+.info-contacto a {
+    color: #007bff; /* Color del enlace */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.info-contacto a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}
+
+/* Estilos adicionales para el menú */
 #menu {
-    position: fixed;
+    position: fixed; /* Menú fijo en la parte superior */
     top: 0;
     width: 100%;
     background-color: #333; /* Color de fondo del menú */
     color: white; /* Color del texto del menú */
     padding: 10px 0; /* Espaciado interno del menú */
-    z-index: 1000; /* Z-index para asegurar que esté por encima del contenido */
+    z-index: 1000; /* Asegura que esté por encima del contenido */
 }
 
+/* Estilos para contenedores flexibles */
 .container {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .item {
-  flex: 1 1 300px; /* Flex grow, flex shrink, base size */
-  margin: 10px;
+    flex: 1 1 300px; /* Propiedades flexibles */
+    margin: 10px; /* Margen de los elementos */
 }
