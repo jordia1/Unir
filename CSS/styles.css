@@ -183,3 +183,13 @@ td {
     padding: 10px 0; /* Espaciado interno del menú */
     z-index: 1000; /* Z-index para asegurar que esté por encima del contenido */
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 300px; /* Flex grow, flex shrink, base size */
+  margin: 10px;
+}
